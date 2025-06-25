@@ -18,4 +18,5 @@ jobs:
         with:
           node-version: '16'
       - run: npm ci
-      - run: npx expo prebuild --check
+      - name: Check Expo configuration
+        run: npx expo doctor
