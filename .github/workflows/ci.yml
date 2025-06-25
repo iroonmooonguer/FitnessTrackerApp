@@ -19,4 +19,4 @@ jobs:
           node-version: '16'
       - run: npm ci
       - name: Check Expo configuration
-        run: npx expo doctor
+        run: npx expo-doctor
